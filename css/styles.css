@@ -1,0 +1,385 @@
+*{
+  margin: 0 ;
+  padding: 0 ;
+  box-sizing: border-box;
+}
+
+.allbtns{
+  padding: 14px 50px ;
+  font-size: 15px ;
+  text-transform: uppercase;
+  background-color: #E5B837 ;
+  font-weight: 700 ;
+  border-radius: 4px;
+  border-width: 0 ;
+}
+
+.allbtns:hover{
+  cursor: pointer;
+  background-color: black ;
+  color: #E5B837 ;
+}
+/* ---------------------------------------------------------------------------------------------- */
+.first{
+  width: 100% ;
+  height: 100vh ;
+  background: url("../firstdiv/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.first h1{
+  font-size: 65px ;
+  position: absolute;
+  letter-spacing: 1.2px ;
+  top: 150px ;
+  left: 45px ;
+  width: 36% ;
+  color: white ;
+  text-shadow: 3px 3px 4px black ;
+}
+
+.imgg{
+  cursor: pointer;
+}
+.first1{
+  width: 25% ;
+  font-size: 25px ;
+  color: white ;
+  position: absolute;
+  right: 50px ;
+  bottom: 85px ;
+  text-shadow: 3px 3px 4px black ;
+}
+
+.first2{
+  width: 100% ;
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  color: white ;
+}
+
+.first2 img{
+  margin: 30px 0 0 45px ;
+  cursor: pointer;
+}
+
+.search{
+  position: absolute;
+  right: 12% ;
+  top: 30px ;
+  padding: 10px 15px;
+  background: transparent ;
+  outline: none ;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white ;
+}
+
+.searchimg{
+  position: absolute;
+  right: 12.5% ;
+  top: 40px ;
+}
+
+input::placeholder{
+  color: #E8E5DC ;
+  font-size: 15px;
+}
+
+textarea:focus, input:focus {
+    color: #E8E5DC;
+}
+/* ---------------------------------------------------------------------------------------- */
+
+.second{
+  width: 100% ;
+  height: 147vh ;
+  background-color: black ;
+}
+
+.second img{
+  margin-left: 200px ;
+}
+
+.second1{
+  position: absolute;
+  right: 150px ;
+  width: 50% ;
+  font-size: 20px ;
+  letter-spacing: 2px ;
+  color: white ;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+}
+
+.second1 p{
+  margin-top: 22px ;
+  letter-spacing: 1px ;
+  line-height: 40px ;
+}
+
+.pp{
+  margin-top: 10px ;
+  margin-bottom: 25px ;
+}
+
+.alla{
+  color: white ;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+
+.third{
+  width: 100% ;
+  height: 70vh ;
+  display: flex;
+}
+
+/* ----------------------------------------cards------------------------------------------------ */
+
+.fourth{
+  width: 100% ;
+  height: 100vh ;
+  background-color: black ;
+  position: relative;
+}
+
+.cards{
+  position: absolute;
+  background-color: #E5E5E5 ;
+  width: 18% ;
+  height: 350px ;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-top: 150px ;
+}
+
+.cards img{
+  margin-top: 30px ;
+}
+
+.cards h3{
+  margin-top: 18px ;
+  margin-bottom: 18px ;
+  letter-spacing: 3px ;
+  font-weight: 600 ;
+  font-size: 18px ;
+}
+
+.cards p{
+  width: 62% ;
+  letter-spacing: 1px ;
+  margin: 0 0 18px 60px ;
+  font-family: 'Lato', sans-serif;
+}
+
+.cards a{
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1.2px ;
+  text-decoration: none;
+  border-bottom: 1px solid black;
+  padding-bottom: 4px ;
+  color: black ;
+}
+
+.carddiv{
+  display: flex;
+  justify-content: space-between;
+}
+
+#firstcard{
+  left: 12% ;
+  top: 28% ;
+}
+
+#secondcard{
+  left: 32% ;
+  top: 16% ;
+}
+
+#thirdcard{
+  left: 52% ;
+  top: 28% ;
+}
+
+#fourthcard{
+  left: 72% ;
+  top: 16%
+}
+
+/* -------------------------------------------------------------------------------------*/
+.fifth{
+  background-color: black ;
+  width: 100% ;
+  height: 170vh ;
+}
+
+.fifth1{
+  color: white ;
+  display: flex;
+  align-items: center;
+}
+
+.fifth1 h1{
+  font-size: 70px ;
+  width: 30% ;
+  margin-left: 200px ;
+  margin-top: 50px ;
+  margin-right: 100px ;
+  font-weight: 700 ;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.fifth11{
+  margin-top: 80px ;
+  font-size: 18px ;
+  width: 30% ;
+  font-weight: 500 ;
+  letter-spacing: 1.5px ;
+  margin-right: 20px ;
+  padding: 10px ;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.p1{
+  margin-bottom: 30px ;
+}
+
+/* -----------------------------------   2nd Div in 4th -------------------------- */
+
+.fifth2{
+  color: white ;
+  display: flex ;
+  justify-content: space-between;
+  margin: 120px auto 0 300px ;
+  width: 60% ;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.fifth2 h2{
+  width: 40% ;
+  margin-top: 150px ;
+  margin-left: 20px ;
+  width: 30% ;
+  color: #E5B837 ;
+  letter-spacing: 1.2px ;
+}
+
+.fifth21 h1{
+  font-size: 70px ;
+  margin-top: 15px ;
+  font-weight: 700 ;
+}
+
+.fifth21 p{
+  font-size: 20px ;
+  font-weight: 100 ;
+  width: 90% ;
+  margin-top: 30px ;
+  margin-bottom: 30px ;
+  font-weight: 500;
+  letter-spacing: 2px ;
+}
+
+.imgg2{
+  margin-top: 10px ;
+  margin-left: 230px ;
+}
+
+/* ---------------------------------------------------------------- */
+
+.sixth{
+  width: 100% ;
+  height: 100vh ;
+  background-image: url("../fifthdiv/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.sixth1{
+  background-color: #E5E5E5 ;
+  width: 35% ;
+  height: 400px ;
+  text-align: center;
+  position: absolute;
+  right: 180px ;
+  top: 160px ;
+
+}
+
+.sixth1 h1{
+  width: 50% ;
+  font-size: 70px ;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 20px auto;
+  font-weight: 900 ;
+}
+
+.sixth1 p{
+  font-size: 20px ;
+  font-family: 'Lato', sans-serif;
+  margin: 20px auto 20px auto;
+  width: 73% ;
+  text-align: center;
+  letter-spacing: 0.5px ;
+  line-height: 28px ;
+}
+
+/* ---------------------------------------------------------------- */
+
+.seven{
+  width: 100% ;
+  height: 52vh ;
+  background-color: black ;
+}
+
+.seven1{
+  color: white ;
+  width: 30% ;
+  text-align: center;
+  margin: auto;
+  font-family: 'Roboto Condensed', sans-serif;
+  height: 100% ;
+}
+
+.seven1 img{
+  margin-right: 15px ;
+  margin-top: 60px ;
+}
+
+.seven1 h3{
+  font-weight: 800 ;
+  margin-top: 20px ;
+  margin-bottom: 40px ;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.seven1 h1{
+  font-size: 70px ;
+  margin-bottom: 30px ;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+/* ---------------------------------------------------------------- */
+
+.eight{
+  width: 100% ;
+  height: 33vh ;
+  background-color: #333333 ;
+  text-align: center;
+  color: white ;
+  font-family: 'Lato', sans-serif;
+  padding: 53px ;
+}
+
+.p11{
+  margin-bottom: 80px ;
+}
+
+.eight a{
+  font-size: 13px ;
+  color: #9AD0EC ;
+}
